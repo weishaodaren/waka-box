@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: matchai/waka-box@master
+        uses: weishaodaren/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 968220c97e8da1d047a9a480fa432e54
+          GIST_ID: 6dbfcaeb6159ef2ca35208b6c1a66886
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
